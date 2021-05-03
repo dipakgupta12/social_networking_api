@@ -39,4 +39,4 @@ redoc :  http://localhost:8000/redoc/
 
 ```
 
-### CD/CI pipeline available in .circleci/config.yml.
+#### CI config file can be found in .circleci/config.yml. For each commit in **mail** branch CI will trigger at [circleci](https://app.circleci.com/pipelines/github/dipakgupta12/social_networking_api?branch=main).
