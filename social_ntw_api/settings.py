@@ -13,6 +13,7 @@ https://docs.djangoproject.com/en/3.2/ref/settings/
 from pathlib import Path
 import datetime
 import os
+import django_heroku
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -110,13 +111,13 @@ DATABASES = {
 
         'ENGINE': 'django.db.backends.postgresql',
 
-        'NAME': 'd625v4mufbgv5',
+        'NAME': 'd372gkubt7ii2',
 
-        'USER': 'yhfljafegcgxeg',
+        'USER': 'fevhvmhpbvoqcy',
 
-        'PASSWORD': '82fcf08382bfe7d2e6453d8cf019d1fa673350adbf179af9911edbcc1a35f08b',
+        'PASSWORD': 'dd7ebe3c2d24cd5a8cb7d390c11c658eb6bfb7ea9f19890844cba50a64a4de9b',
 
-        'HOST': 'ec2-54-167-152-185.compute-1.amazonaws.com',
+        'HOST': 'ec2-34-233-0-64.compute-1.amazonaws.com',
 
         'PORT': '5432',
 
@@ -213,3 +214,5 @@ CELERY_TIMEZONE = "UTC"
 
 PROJECT_DIR = os.path.dirname(os.path.abspath(__file__))
 STATIC_ROOT = os.path.join(PROJECT_DIR, 'static')
+
+django_heroku.settings(locals())
