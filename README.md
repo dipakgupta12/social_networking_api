@@ -39,4 +39,4 @@ redoc :  http://localhost:8000/redoc/
 
 ```
 
-### CD/CI pipeline available in .circleci/config.yml.
+### CD/CI config file can be found in .circleci/config.yml.
