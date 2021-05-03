@@ -39,4 +39,4 @@ redoc :  http://localhost:8000/redoc/
 
 ```
 
-#### CI config file can be found in .circleci/config.yml.
+#### CI config file can be found in .circleci/config.yml. For each commi in **mail** branch CI will trigger.
